@@ -13,6 +13,7 @@ let poll = {
   title: "Quel film pour Mercredi ?",
   answers: [
     { id: "9323", title: "Ghost in the Shell (1995)" }
+  ]
 };
 let answers = { 9323: 0 };
 
