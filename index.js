@@ -10,12 +10,11 @@ const corsOptions = {
 }
 
 let poll = {
-  title: "Sondage",
+  title: "Quel film pour Mercredi ?",
   answers: [
-    { id: "11", title: "La Guerre des étoiles" },
-    { id: "12", title: "Le Monde de Nemo" }]
+    { id: "9323", title: "Ghost in the Shell (1995)" }
 };
-let answers = { 11: 0, 12: 0 };
+let answers = { 9323: 0 };
 
 const app = express();
 app.use(bodyParser.json()) // for parsing application/json
